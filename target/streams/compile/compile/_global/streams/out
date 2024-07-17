@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\owken\Documents\GitHub\Koya\app\controllers\HomeController.scala:22:25: no arguments allowed for nullary method apply: ()(implicit request: play.api.mvc.RequestHeader): play.twirl.api.HtmlFormat.Appendable in object index[0m
+[0m[[0m[31merror[0m] [0m[0m    Ok(views.html.index(request))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

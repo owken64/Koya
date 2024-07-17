@@ -1,0 +1,14 @@
+@()(implicit request: RequestHeader)
+@import helper._
+@import views.html.helper.options
+@import views.html.helper.CSRF
+
+@main("Welcome to Play") {
+  <h1>Welcome to Play!</h1>
+
+  @helper.form(action = CSRF( routes.UserController.createUser) ) {
+    Name: <input type="text" name="name">
+    Age : <input type="text" name="age">
+    <input type="submit">
+ }
+}
